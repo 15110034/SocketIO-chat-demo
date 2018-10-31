@@ -1,0 +1,91 @@
+body{
+    background-color: #ebeef4 ;
+   
+background:  url("images/IMG_0165.JPG") no-repeat center fixed; 
+  background-size: cover;
+}
+#wrapper{
+    width:600px;
+    margin:auto;
+    opacity: 0.9;
+}
+
+#left,#right{
+    min-height: 300px;
+
+}
+#left{
+    width:30%;
+    float:left;
+    background-color: #209956;
+
+}
+#right{
+    width:70%;
+    float:right;
+    background-color: #c7fcdf
+}
+#txtUsername{
+    width: 29.5%;
+    border-radius: 5px;
+    border:1px solid #209956;
+}
+#chatForm{
+    margin-top:5vh;
+}
+#btnRegister{
+    border-radius: 5px;
+    background-color: #209956;
+    border:1px solid #209956;
+    color: #c7fcdf;
+}
+#boxTitle{
+    padding:5px;
+    text-align:center;
+    font-weight: bold;
+    color:#ebeef4;
+    
+}
+#boxContent{
+    border-top:1px solid black;
+    padding:5px;
+    text-align:center;
+    color: #ebeef4;
+
+}
+#sayHi{
+    
+   
+    text-align:right;
+    font-weight: bold;
+    padding: 2px;
+    
+}
+#btnLogout{
+    border-radius: 5px;
+    background-color: #209956;
+    border:1px solid #209956;
+    color: #c7fcdf;
+
+}
+#listMessage{
+    height:249px;
+    border-top:1px solid black;
+    
+}
+#txtMessage{
+    width: 85%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border:1px solid #209956;
+
+}
+#btnSend{
+    border-radius: 5px;
+    background-color: #209956;
+    border:1px solid #209956;
+    color: #c7fcdf;
+}
+h3{
+    color: #ebeef4;
+}
